@@ -1,0 +1,152 @@
+[03-Dec-2018 02:12:08 UTC] PHP Warning:  Error while sending QUERY packet. PID=1363 in /app/public/wp-includes/wp-db.php on line 1924
+[03-Dec-2018 02:50:36 UTC] PHP Parse error:  syntax error, unexpected '2' (T_LNUMBER) in /app/public/exp.php on line 1
+[03-Dec-2018 02:51:46 UTC] PHP Parse error:  syntax error, unexpected '2' (T_LNUMBER) in /app/public/exp.php on line 1
+[03-Dec-2018 02:52:32 UTC] PHP Warning:  Use of undefined constant name - assumed 'name' (this will throw an Error in a future version of PHP) in /app/public/exp.php on line 5
+[03-Dec-2018 02:52:32 UTC] PHP Warning:  Use of undefined constant name - assumed 'name' (this will throw an Error in a future version of PHP) in /app/public/exp.php on line 9
+[03-Dec-2018 04:49:17 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-university/index.php on line 5
+[03-Dec-2018 04:56:08 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-university/index.php on line 20
+[03-Dec-2018 16:41:35 UTC] PHP Parse error:  syntax error, unexpected 'description' (T_STRING), expecting ',' or ';' in /app/public/wp-content/themes/fictional-university/index.php on line 11
+[03-Dec-2018 16:42:33 UTC] PHP Parse error:  syntax error, unexpected 'description' (T_STRING), expecting ',' or ';' in /app/public/wp-content/themes/fictional-university/index.php on line 11
+[03-Dec-2018 16:43:42 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/fictional-university/index.php on line 11
+[03-Dec-2018 17:21:53 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /app/public/wp-content/themes/fictional-university/index.php on line 7
+[03-Dec-2018 22:02:39 UTC] PHP Warning:  Error while sending QUERY packet. PID=3581 in /app/public/wp-includes/wp-db.php on line 1924
+[05-Dec-2018 16:22:30 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /app/public/wp-content/themes/fictional-university/page.php on line 30
+[05-Dec-2018 17:00:30 UTC] PHP Warning:  Error while sending QUERY packet. PID=2798 in /app/public/wp-includes/wp-db.php on line 1924
+[06-Dec-2018 03:31:08 UTC] PHP Warning:  Error while sending QUERY packet. PID=3144 in /app/public/wp-includes/wp-db.php on line 1924
+[07-Dec-2018 00:23:01 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university/index.php on line 30
+[07-Dec-2018 00:28:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_author_post_link() in /app/public/wp-content/themes/fictional-university/index.php:31
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university/index.php on line 31
+[07-Dec-2018 00:29:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_author_post_link() in /app/public/wp-content/themes/fictional-university/index.php:31
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university/index.php on line 31
+[07-Dec-2018 22:18:59 UTC] PHP Warning:  Error while sending QUERY packet. PID=3703 in /app/public/wp-includes/wp-db.php on line 1924
+[08-Dec-2018 15:02:41 UTC] PHP Warning:  Error while sending QUERY packet. PID=1566 in /app/public/wp-includes/wp-db.php on line 1924
+[08-Dec-2018 15:15:17 UTC] PHP Warning:  Error while sending QUERY packet. PID=988 in /app/public/wp-includes/wp-db.php on line 1924
+[09-Dec-2018 16:46:13 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/fictional-university/front-page.php on line 63
+[10-Dec-2018 01:48:57 UTC] PHP Warning:  Use of undefined constant has_excerpt - assumed 'has_excerpt' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university/front-page.php on line 120
+[10-Dec-2018 01:48:57 UTC] PHP Warning:  Use of undefined constant has_excerpt - assumed 'has_excerpt' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university/front-page.php on line 120
+[10-Dec-2018 01:52:08 UTC] PHP Warning:  Use of undefined constant has_excerpt - assumed 'has_excerpt' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university/front-page.php on line 120
+[10-Dec-2018 01:52:08 UTC] PHP Warning:  Use of undefined constant has_excerpt - assumed 'has_excerpt' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university/front-page.php on line 120
+[10-Dec-2018 02:18:05 UTC] PHP Warning:  Error while sending QUERY packet. PID=1966 in /app/public/wp-includes/wp-db.php on line 1924
+[10-Dec-2018 17:36:24 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (26/12/2018) at position 0 (2): Unexpected character in /app/public/wp-content/themes/fictional-university/front-page.php:75
+Stack trace:
+#0 /app/public/wp-content/themes/fictional-university/front-page.php(75): DateTime->__construct('26/12/2018')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/fictional-university/front-page.php on line 75
+[10-Dec-2018 17:39:49 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (26/12/2018) at position 0 (2): Unexpected character in /app/public/wp-content/themes/fictional-university/front-page.php:75
+Stack trace:
+#0 /app/public/wp-content/themes/fictional-university/front-page.php(75): DateTime->__construct('26/12/2018')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/fictional-university/front-page.php on line 75
+[10-Dec-2018 18:10:03 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (27/12/2018) at position 0 (2): Unexpected character in /app/public/wp-content/themes/fictional-university/front-page.php:78
+Stack trace:
+#0 /app/public/wp-content/themes/fictional-university/front-page.php(78): DateTime->__construct('27/12/2018')
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/fictional-university/front-page.php on line 78
+[10-Dec-2018 18:12:31 UTC] PHP Warning:  Error while sending QUERY packet. PID=2681 in /app/public/wp-includes/wp-db.php on line 1924
+[11-Dec-2018 18:58:41 UTC] PHP Warning:  Use of undefined constant is_admin - assumed 'is_admin' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university/functions.php on line 40
+[11-Dec-2018 18:58:41 UTC] PHP Warning:  Use of undefined constant is_admin - assumed 'is_admin' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university/functions.php on line 40
+[11-Dec-2018 18:58:41 UTC] PHP Warning:  Use of undefined constant is_admin - assumed 'is_admin' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university/functions.php on line 40
+[11-Dec-2018 18:58:41 UTC] PHP Warning:  Use of undefined constant is_admin - assumed 'is_admin' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university/functions.php on line 40
+[11-Dec-2018 18:58:41 UTC] PHP Warning:  Use of undefined constant is_admin - assumed 'is_admin' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university/functions.php on line 40
+[11-Dec-2018 18:58:41 UTC] PHP Warning:  Use of undefined constant is_admin - assumed 'is_admin' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university/functions.php on line 40
+[11-Dec-2018 18:58:41 UTC] PHP Warning:  Use of undefined constant is_admin - assumed 'is_admin' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university/functions.php on line 40
+[11-Dec-2018 18:58:41 UTC] PHP Warning:  Use of undefined constant is_admin - assumed 'is_admin' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university/functions.php on line 40
+[11-Dec-2018 19:01:15 UTC] PHP Warning:  Use of undefined constant is_admin - assumed 'is_admin' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university/functions.php on line 40
+[11-Dec-2018 19:01:15 UTC] PHP Warning:  Use of undefined constant is_admin - assumed 'is_admin' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university/functions.php on line 40
+[11-Dec-2018 19:01:15 UTC] PHP Warning:  Use of undefined constant is_admin - assumed 'is_admin' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university/functions.php on line 40
+[11-Dec-2018 19:01:21 UTC] PHP Warning:  Use of undefined constant is_admin - assumed 'is_admin' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university/functions.php on line 40
+[11-Dec-2018 19:01:21 UTC] PHP Warning:  Use of undefined constant is_admin - assumed 'is_admin' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university/functions.php on line 40
+[11-Dec-2018 19:01:21 UTC] PHP Warning:  Use of undefined constant is_admin - assumed 'is_admin' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university/functions.php on line 40
+[11-Dec-2018 19:01:29 UTC] PHP Warning:  Use of undefined constant is_admin - assumed 'is_admin' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university/functions.php on line 40
+[11-Dec-2018 19:01:30 UTC] PHP Warning:  Use of undefined constant is_admin - assumed 'is_admin' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/fictional-university/functions.php on line 40
+[17-Dec-2018 17:23:36 UTC] PHP Warning:  Error while sending QUERY packet. PID=399 in /app/public/wp-includes/wp-db.php on line 1924
+[17-Dec-2018 19:10:05 UTC] PHP Warning:  Error while sending QUERY packet. PID=2949 in /app/public/wp-includes/wp-db.php on line 1924
+[20-Dec-2018 16:04:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/fictional-university/single-professor.php on line 44
+[20-Dec-2018 16:07:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/fictional-university/single-professor.php on line 41
+[20-Dec-2018 16:09:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/fictional-university/single-professor.php on line 41
+[21-Dec-2018 18:12:09 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university/functions.php on line 24
+[21-Dec-2018 18:12:21 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university/functions.php on line 24
+[21-Dec-2018 18:12:21 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university/functions.php on line 24
+[21-Dec-2018 18:37:14 UTC] PHP Warning:  Illegal string offset 'title' in /app/public/wp-content/themes/fictional-university/functions.php on line 20
+[21-Dec-2018 18:37:14 UTC] PHP Warning:  Illegal string offset 'subtitle' in /app/public/wp-content/themes/fictional-university/functions.php on line 25
+[21-Dec-2018 18:52:52 UTC] PHP Warning:  Illegal string offset 'photo' in /app/public/wp-content/themes/fictional-university/functions.php on line 34
+[21-Dec-2018 18:52:52 UTC] PHP Warning:  Illegal string offset 'title' in /app/public/wp-content/themes/fictional-university/functions.php on line 38
+[21-Dec-2018 18:52:52 UTC] PHP Warning:  Illegal string offset 'subtitle' in /app/public/wp-content/themes/fictional-university/functions.php on line 43
+[21-Dec-2018 18:54:42 UTC] PHP Warning:  Illegal string offset 'photo' in /app/public/wp-content/themes/fictional-university/functions.php on line 34
+[21-Dec-2018 18:54:42 UTC] PHP Warning:  Illegal string offset 'title' in /app/public/wp-content/themes/fictional-university/functions.php on line 38
+[21-Dec-2018 18:54:42 UTC] PHP Warning:  Illegal string offset 'subtitle' in /app/public/wp-content/themes/fictional-university/functions.php on line 43
+[21-Dec-2018 18:55:48 UTC] PHP Warning:  Illegal string offset 'photo' in /app/public/wp-content/themes/fictional-university/functions.php on line 34
+[21-Dec-2018 18:55:48 UTC] PHP Warning:  Illegal string offset 'title' in /app/public/wp-content/themes/fictional-university/functions.php on line 38
+[21-Dec-2018 18:55:48 UTC] PHP Warning:  Illegal string offset 'subtitle' in /app/public/wp-content/themes/fictional-university/functions.php on line 43
+[21-Dec-2018 18:56:42 UTC] PHP Warning:  Illegal string offset 'photo' in /app/public/wp-content/themes/fictional-university/functions.php on line 34
+[21-Dec-2018 18:56:42 UTC] PHP Warning:  Illegal string offset 'title' in /app/public/wp-content/themes/fictional-university/functions.php on line 38
+[21-Dec-2018 18:56:42 UTC] PHP Warning:  Illegal string offset 'subtitle' in /app/public/wp-content/themes/fictional-university/functions.php on line 43
+[21-Dec-2018 19:21:52 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in /app/public/wp-content/themes/fictional-university/page.php on line 9 and exactly 1 expected in /app/public/wp-content/themes/fictional-university/functions.php:3
+Stack trace:
+#0 /app/public/wp-content/themes/fictional-university/page.php(9): pageBanner()
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/fictional-university/functions.php on line 3
+[21-Dec-2018 20:33:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/fictional-university/single-event.php on line 33
+[21-Dec-2018 20:33:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/fictional-university/single-event.php on line 33
+[21-Dec-2018 21:40:33 UTC] PHP Warning:  Error while sending QUERY packet. PID=11267 in /app/public/wp-includes/wp-db.php on line 1924
+[26-Dec-2018 17:40:33 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /app/public/wp-content/themes/fictional-university/single-program.php on line 133
+[02-Jan-2019 01:29:58 UTC] PHP Warning:  Error while sending QUERY packet. PID=6254 in /app/public/wp-includes/wp-db.php on line 1924
+[02-Jan-2019 02:48:36 UTC] PHP Warning:  Error while sending QUERY packet. PID=696 in /app/public/wp-includes/wp-db.php on line 1924
+[03-Jan-2019 16:34:04 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/mu-plugins/university-post-types.php on line 54
+[04-Jan-2019 02:03:35 UTC] PHP Parse error:  syntax error, unexpected ';' in /app/public/wp-content/themes/fictional-university/inc/search-route.php on line 69
+[04-Jan-2019 02:04:50 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university/inc/search-route.php on line 71
+[04-Jan-2019 02:06:04 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university/inc/search-route.php on line 71
+[04-Jan-2019 02:07:45 UTC] PHP Parse error:  syntax error, unexpected ';' in /app/public/wp-content/themes/fictional-university/inc/search-route.php on line 69
+[04-Jan-2019 02:11:18 UTC] PHP Parse error:  syntax error, unexpected ';' in /app/public/wp-content/themes/fictional-university/inc/search-route.php on line 69
+[04-Jan-2019 02:14:09 UTC] PHP Parse error:  syntax error, unexpected ';' in /app/public/wp-content/themes/fictional-university/inc/search-route.php on line 69
+[05-Jan-2019 19:06:10 UTC] PHP Warning:  Error while sending QUERY packet. PID=8006 in /app/public/wp-includes/wp-db.php on line 1924
+[06-Jan-2019 17:55:14 UTC] PHP Parse error:  syntax error, unexpected '/' in /app/public/wp-content/themes/fictional-university/header.php on line 46
+[06-Jan-2019 23:53:06 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /app/public/wp-content/themes/fictional-university/functions.php on line 203
+[07-Jan-2019 01:09:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ese_url() in /app/public/wp-content/themes/fictional-university/page-my-notes.php:5
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university/page-my-notes.php on line 5
+[07-Jan-2019 16:10:26 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /app/public/wp-content/themes/fictional-university/functions.php on line 82
+[09-Jan-2019 17:48:00 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/fictional-university/inc/like-route.php on line 29
+[09-Jan-2019 17:48:07 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/fictional-university/inc/like-route.php on line 29
+[09-Jan-2019 17:53:44 UTC] PHP Parse error:  syntax error, unexpected ''meta_input'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/fictional-university/inc/like-route.php on line 26
+[09-Jan-2019 17:55:44 UTC] PHP Parse error:  syntax error, unexpected ''meta_input'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/fictional-university/inc/like-route.php on line 26
+[09-Jan-2019 17:57:45 UTC] PHP Parse error:  syntax error, unexpected ''meta_input'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/fictional-university/inc/like-route.php on line 26
+[09-Jan-2019 17:59:45 UTC] PHP Parse error:  syntax error, unexpected ''meta_input'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/fictional-university/inc/like-route.php on line 26
+[09-Jan-2019 18:01:45 UTC] PHP Parse error:  syntax error, unexpected ''meta_input'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/fictional-university/inc/like-route.php on line 26
+[09-Jan-2019 18:03:44 UTC] PHP Parse error:  syntax error, unexpected ''meta_input'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/fictional-university/inc/like-route.php on line 26
+[09-Jan-2019 18:05:16 UTC] PHP Parse error:  syntax error, unexpected ''meta_input'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/fictional-university/inc/like-route.php on line 26
+[09-Jan-2019 18:07:17 UTC] PHP Parse error:  syntax error, unexpected ''meta_input'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/fictional-university/inc/like-route.php on line 26
+[09-Jan-2019 18:09:18 UTC] PHP Parse error:  syntax error, unexpected ''meta_input'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/fictional-university/inc/like-route.php on line 26
+[09-Jan-2019 18:11:18 UTC] PHP Parse error:  syntax error, unexpected ''meta_input'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/fictional-university/inc/like-route.php on line 26
+[09-Jan-2019 18:13:20 UTC] PHP Parse error:  syntax error, unexpected ''meta_input'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/fictional-university/inc/like-route.php on line 26
+[09-Jan-2019 18:15:20 UTC] PHP Parse error:  syntax error, unexpected ''meta_input'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/fictional-university/inc/like-route.php on line 26
+[17-Jan-2019 15:28:18 UTC] PHP Parse error:  syntax error, unexpected ''meta_input'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/fictional-university/inc/like-route.php on line 43
+[17-Jan-2019 15:28:28 UTC] PHP Parse error:  syntax error, unexpected ''meta_input'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/fictional-university/inc/like-route.php on line 43
+[17-Jan-2019 15:28:50 UTC] PHP Parse error:  syntax error, unexpected ''meta_input'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/fictional-university/inc/like-route.php on line 43
+[17-Jan-2019 15:34:33 UTC] PHP Warning:  Error while sending QUERY packet. PID=705 in /app/public/wp-includes/wp-db.php on line 1924
